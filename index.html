@@ -14,6 +14,8 @@
 			    background-position-x: center;
 			    background-size: cover;
 			    background-repeat: no-repeat;
+			    color: #f4428f;
+			    font-size: 100%;
 	  		}
 	  		.centre {display: flex;
 	  			flex-direction: row;
@@ -28,7 +30,8 @@
 	  		}
 	  		.bigdiv_2 {
 	  			display: flex;
-	  			flex-direction: row
+	  			flex-direction: row;
+	  			color: #f4426b;
 	  		}
 	  		.bigdiv_2_right_panel {
 	  			display: flex;
@@ -36,12 +39,11 @@
 	  			justify-content: flex-start;
 	  			align-items: center;
 	  			flex-grow: 1;
-	  		}
-	  		.grid_wrapper {
-	  			width: 50%;
+	  			color: #f4426b;
 	  		}
 	  		.page_3 {display: flex;
-	  			flex-direction: row
+	  			flex-direction: row;
+	  			color: #f4426b;
 	  		}
 	  		.page_3_right_panel {
 	  			display: flex;
@@ -49,13 +51,39 @@
 	  			justify-content: flex-start;
 	  			align-items: center;
 	  			flex-grow: 1;
+	  			color: #f4426b;
 	  		}
-	  		.grid_pic {
-	  			width: 33%;
-	  		}
-	  		}
+			.row2 {
+				display: flex;
+			 	width: 50%;
+			 	width: 100px;
+			  	height: 100px;
+			}
+			.grid {
+			 	display: grid;
+  			  	grid-template-columns: auto auto auto;
+  			  	grid-template-rows: auto auto auto;
+  			  	width: 50%;
+			}
+			.grid-item {
+			  	width: 200px;
+			  	height: 250px;
+			  	box-sizing: 
+			}
+			.grid-item-content {
+				width: 100%;
+				height: 100%;
+			}
+			.column2 {
+				flex: 33.33%;
+			  	padding: 5px;
+			 	width: 33%;
+			  	max-height: 100%;
+			}
 		  	div {
+		  		{
   				border: 3px solid red;
+		  		}
   			}
 		</style>
 	</head> 
@@ -87,36 +115,33 @@
 			</div>
 		</div>
 		<div class="page_3">
-			<div class= "grid_wrapper">
-				<div class="grid_pic">
-					<img src="happy_face.gif" alt="Happy face">
+			<div class= "grid">
+				<div class="grid-item">
+					<img class="grid-item-content" src="IMG-20181216-WA0069.jpg">
 				</div>
-				<div class="grid_pic">
-					<img src="happy_face.gif" alt="Happy face">
+				<div class="grid-item">
+					<img class="grid-item-content" src="IMG-20181216-WA0054.jpg">
 				</div>
-				<div class="grid_pic">
-					<img src="happy_face.gif" alt="Happy face">
+				<div class="grid-item">
+					<img class="grid-item-content" src="IMG-20181216-WA0056.jpg">
 				</div>
-				<div class="grid_pic">
-					<img src="happy_face.gif" alt="Happy face">
+				<div class="grid-item">
+					<img class="grid-item-content" src="IMG-20181216-WA0052.jpg">
 				</div>
-				<div class="grid_pic">
-					<img src="happy_face.gif" alt="Happy face">
+				<div class="grid-item">
+					<img class="grid-item-content" src="51942546_608752069570405_6689321749627164550_n.jpg">
 				</div>
-				<div class="grid_pic">
-					<img src="happy_face.gif" alt="Happy face">
+				<div class="grid-item">
+					<img class="grid-item-content" src="DSC03984.JPG">
 				</div>
-				<div class="grid_pic">
-					<img src="happy_face.gif" alt="Happy face">
+				<div class="grid-item">
+					<img class="grid-item-content" src="IMG-20181216-WA0144.jpg">
 				</div>
-				<div class="grid_pic">
-					<img src="happy_face.gif" alt="Happy face">
+				<div class="grid-item">
+					<img class="grid-item-content" src="IMG-20181216-WA0088.jpg">
 				</div>
-				<div class="grid_pic">
-					<img src="happy_face.gif" alt="Happy face">
-				</div>
-				<div class="grid_pic">
-					<img src="happy_face.gif" alt="Happy face">
+				<div class="grid-item">
+					<img class="grid-item-content" src="IMG-20181216-WA0142.jpg">
 				</div>
 			</div>
 			<div class="page_3_right_panel">
